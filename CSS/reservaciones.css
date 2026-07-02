@@ -1,0 +1,143 @@
+/* ========================= */
+/* SECCION RESERVACIONES */
+/* ========================= */
+
+#reservaciones{
+    display:flex;
+    height:650px;
+}
+
+/* ========================= */
+/* IMAGEN */
+/* ========================= */
+
+.imagen-reserva{
+    width:50%;
+}
+
+.imagen-reserva img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* ========================= */
+/* CONTENIDO */
+/* ========================= */
+
+.contenido-reserva{
+    width:50%;
+    background:#f8f8f8;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+}
+
+/* ========================= */
+/* ICONO */
+/* ========================= */
+
+.icono-reserva{
+    font-size:55px;
+    color:#4b362d;
+
+    margin-bottom:15px;
+}
+
+/* ========================= */
+/* TITULO */
+/* ========================= */
+
+.contenido-reserva h1{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:75px;
+
+    font-weight:400;
+
+    color:#4b362d;
+
+    line-height:0.95;
+
+    margin-bottom:25px;
+}
+
+/* ========================= */
+/* LINEA */
+/* ========================= */
+
+.linea-reserva{
+
+    width:360px;
+
+    height:3px;
+
+    background:#b89c76;
+
+    margin-bottom:25px;
+}
+
+/* ========================= */
+/* TEXTO */
+/* ========================= */
+
+.contenido-reserva p{
+
+    font-family:Arial, sans-serif;
+
+    font-size:22px;
+
+    color:#333;
+
+    line-height:1.5;
+
+    margin-bottom:25px;
+}
+
+/* ========================= */
+/* BOTON */
+/* ========================= */
+
+.boton-reserva{
+
+    background:#b89c76;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px 60px;
+
+    border-radius:8px;
+
+    font-size:22px;
+
+    transition:0.3s;
+}
+
+.boton-reserva:hover{
+
+    background:#a88f6f;
+}
+
+/* ========================= */
+/* MENSAJE FINAL */
+/* ========================= */
+
+.contenido-reserva span{
+
+    margin-top:25px;
+
+    font-size:22px;
+
+    color:#333;
+}

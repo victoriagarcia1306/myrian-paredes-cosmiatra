@@ -1,0 +1,197 @@
+/* ================================================= */
+/*                 TITULO RESULTADOS                 */
+/* ================================================= */
+
+.titulo-resultados{
+
+    text-align:center;
+
+    margin-top:60px;
+
+    margin-bottom:80px;
+}
+
+.titulo-resultados h1{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:72px;
+
+    font-weight:300;
+
+    color:#4b362d;
+
+    margin-bottom:15px;
+
+    letter-spacing:1px;
+}
+
+.titulo-resultados .linea-titulo{
+
+    width:400px;
+
+    height:3px;
+
+    background:#b69a7a;
+
+    margin:0 auto 25px auto;
+}
+
+.titulo-resultados h2{
+
+    font-family:Arial, sans-serif;
+
+    font-size:32px;
+
+    font-weight:400;
+
+    color:#4b362d;
+
+    letter-spacing:1px;
+
+    margin-bottom:15px;
+}
+
+.titulo-resultados p{
+
+    font-family:Arial, sans-serif;
+
+    font-size:22px;
+
+    font-weight:400;
+
+    color:#4b362d;
+
+    margin-bottom:0;
+}
+
+/* ========================= /
+/ PRIMER RESULTADO FACIAL /
+/ ========================= */
+
+.resultados-facial{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    margin-top:60px;
+}
+
+.texto-izq{
+    width:260px;
+}
+
+/* ========================= /
+/ IMAGENES /
+/ ========================= */
+
+.img-grande{
+    width:500px;
+}
+
+.img-mediana{
+    width:330px;
+}
+
+.resultado-final img,
+.resultados-facial img,
+.resultado-dos img,
+.franja-cabello img{
+    border-radius:0;
+}
+
+/* ========================= /
+/ FRANJA MARRON FACIAL /
+/ ========================= */
+
+.franja-marron{
+    background:#4b362d;
+    margin-top:-40px;
+    padding:60px 0;
+}
+
+.resultado-dos{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+
+.texto-der{
+    color:white;
+    width:280px;
+}
+
+/* ========================= /
+/ TITULO SECCION CABELLO /
+/ ========================= */
+
+.titulo-cabello{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    margin:90px 0;
+}
+
+.titulo-cabello h2{
+    font-family:“Cormorant Garamond”, serif;
+    font-size:52px;
+    color:#4b362d;
+    width:400px;
+}
+
+.titulo-cabello p{
+    width:300px;
+    font-size:24px;
+}
+
+/* ========================= /
+/ FRANJA MARRON CAPILAR /
+/ ========================= */
+
+.franja-cabello{
+    background:#4b362d;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:60px;
+}
+
+.texto-cabello{
+    color:white;
+    width:280px;
+}
+
+/* ========================= /
+/ SEGUNDO RESULTADO CAPILAR /
+/ ========================= */
+
+.resultado-final{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    margin:80px 0;
+}
+
+.texto-final{
+    width:300px;
+}
+
+/* ========================= /
+/ TITULOS DE BLOQUES /
+/ ========================= */
+.texto-final h3,
+.texto-cabello h3,
+.texto-der h3{
+    font-weight:400;
+    font-family:Georgia, serif;
+    color:#4b362d;
+}
+
+.texto-cabello h3,
+.texto-der h3{
+    color:white;
+}
